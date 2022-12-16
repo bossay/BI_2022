@@ -274,12 +274,6 @@ We have discovered that the E. coli X genome encodes Shiga-like toxin genes (stx
 
 Consider the genes that are located next to the Shiga-type toxin genes. Let's use [BLAST](http://blast.ncbi.nlm.nih.gov) to find which organism they belong to. Most likely our bacterium acquired the toxin genes from this organism.
 
->Escherichia coli O103:H2 str. 12009
->
->Escherichia coli O157:H7 str. EC508 ???
->
->Escherichia coli S88 ???
-
 ## Antibiotic resistance detection
 To search for genes responsible for antibiotic resistance, we will use [ResFinder](https://cge.food.dtu.dk/services/ResFinder/), which specifically searches a database of genes implicated in antibiotic resistance, identifying similarities between the sequenced genome and this database using local alignment.
 
@@ -318,9 +312,5 @@ We have discovered that the E. coli X genome encodes Shiga-like toxin genes (stx
 
 We found that E. coli X acquired additional resistance to antibiotics. Some bacteria acquire specific enzymes that can degrade the antibiotic molecule itself. In our case, one of these enzymes is β-lactamase.
 Let's look at the genes that are located next to the β-lactamase genes. Use [BLAST](http://blast.ncbi.nlm.nih.gov) to find which organism they belong to.
-
->Escherichia coli MS 182-1
->
->Escherichia coli E22
 
 ## Ready! You`re incredible!
